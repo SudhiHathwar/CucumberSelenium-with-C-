@@ -1,10 +1,12 @@
-#Specflow 2.0 Parallel Test execution with NUnit 3.x
+# Parallel Test execution with NUnit 3.x
 =====================================================
-Specflow Parallel Test Execution with Specflow and NUnit 3.x project is mainly aimed to demonstrate how we can run 
-Specflow scenarios in parallel using NUnit 3.x Parallelizable Attribute [Parallelizable].
+Stesp to execute
 
-With Specflow 2.0 Parallel execution is supported using xUnit and NUnit framework out-of-box
+1. Clone project
+2. Build the project and make sure all dependencies / references are resolved
+3. Navigate to Nunit console runner / tools in package folder
+4. Open Windows power shell in the current directory
+5. Execute the scripts with  .\nunit3-console.exe <path to SpecflowSeleniumParallel.dll>
+  
+  HAPPY TESTING
 
-You can watch the complete video of the source code built from scratch from here
-
-https://www.youtube.com/watch?v=PiZ32T5k8-8
